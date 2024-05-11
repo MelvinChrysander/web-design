@@ -3,6 +3,10 @@
     padding: 0px;
 }
 
+main{
+    background-color: lightslategrey;
+}
+
 .text{
     color:aqua;
 }
@@ -48,11 +52,9 @@
     width: 90%;
     margin: 0px auto;
     display:flex;
-    background-color: aqua;
 }
 
 .left{
-    background-color: red;
     flex:3;
     display: flex;
     flex-wrap: wrap;
@@ -60,7 +62,7 @@
 }
 
 .right{
-    background-color: blue;
+
     justify-content: flex-end;
     display: flex;
     flex:1;
@@ -99,4 +101,8 @@
 
 .card input{
     margin:10px;
+}
+
+input{
+    max-width: 100%;
 }
